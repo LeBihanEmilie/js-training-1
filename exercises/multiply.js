@@ -9,7 +9,11 @@
  */
 
 // Your code :
-
+let a = 0;
+while(a < 100){
+   return "The number is " + a;
+   a++;
+}
 //* Begin of tests
 const assert = require('assert')
 

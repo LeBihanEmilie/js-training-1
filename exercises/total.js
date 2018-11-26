@@ -5,7 +5,11 @@
  * and return the total
  *
  */
-
+// Your code :
+let total = ['rouge', 'vert', 'bleu'];
+for (let i = 0; i < total.length; i++) {
+  return(total[i]);
+}
 
 //* Begin of tests
 const assert = require('assert')
